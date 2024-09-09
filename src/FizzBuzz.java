@@ -8,11 +8,11 @@ class FizzBuzz {
         while (i<100) {
             i ++;
             // Find out which numbers divide i.
-            dofizzbuzz(i);
+            DoFizzBuzz(i);
         }
     }
 // to call this class FizzBuzz from outside file, you type FizzBuzz.dofizzbuzz
-    public static void dofizzbuzz(int i) {
+    public static void DoFizzBuzz(int i) {
         boolean divisibleBy3 = i % 3 == 0;
         boolean divisibleBy5 = i % 5 == 0;
 
